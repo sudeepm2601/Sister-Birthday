@@ -1,0 +1,77 @@
+.final-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+
+  background: linear-gradient(
+    135deg,
+    #1a1028,
+    #55264f,
+    #a04470
+  );
+
+  color: white;
+}
+
+.final-container h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(30px, 5vw, 50px);
+  color: #ffabc9;
+  margin-bottom: 50px;
+}
+
+.gift-box {
+  cursor: pointer;
+  padding: 45px;
+  border: 2px solid #ffabc9;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.08);
+  box-shadow: 0 0 35px rgba(255,107,157,0.3);
+}
+
+.gift-box p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffd6e5;
+}
+
+.final-message {
+  max-width: 650px;
+  padding: 45px;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.final-message h2 {
+  font-family: Georgia, serif;
+  color: #ffabc9;
+  margin: 25px 0;
+  font-size: 32px;
+}
+
+.final-message p {
+  font-size: 17px;
+  line-height: 2;
+  color: #ffe0ec;
+}
+
+.final-message h3 {
+  margin-top: 30px;
+  color: #ffabc9;
+}
+
+@media(max-width: 600px) {
+  .final-message {
+    padding: 25px;
+  }
+
+  .final-message p {
+    font-size: 15px;
+  }
+}
